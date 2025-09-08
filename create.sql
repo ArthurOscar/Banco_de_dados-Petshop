@@ -33,6 +33,6 @@ CREATE TABLE agendamentos (
     FOREIGN KEY (fk_servico) REFERENCES servicos (id),
     FOREIGN KEY (fk_pet) REFERENCES pets (id),
     data_hota DATETIME NOT NULL,
-    status BOOLEAN DEFAULT(0) NOT NULL,
+    status ENUM('Concluído', 'Não concluído', 'Agendado') NOT NULL,
     observacoes VARCHAR(150) NOT NULL 
 );
