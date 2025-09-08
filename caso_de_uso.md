@@ -1,27 +1,40 @@
-## Atores:
+## Atores:  
+
 **- Usuários**
 
 ## Fluxo:
-**1 - Cadastrar cliente:**
-    - O cliente fornece os dados
-    - Sistema valida eles
-    - Cliente é cadastrado
+**1 - Cadastrar cliente:**  
 
-**2 - Cadastrar Pet:**
-    - O cliente fornece os dados do pet
-    - Sistema valida eles
-    - Pet é cadastrado, vinculado com o dono
+    - O cliente fornece os dados  
+    
+    - Sistema valida eles  
+    
+    - Cliente é cadastrado  
 
-**3 - Coletar informações sobre cliente e pet:**
-    - Juntas as informações do pet
+**2 - Cadastrar Pet:**  
+
+    - O cliente fornece os dados do pet  
+    
+    - Sistema valida eles  
+    
+    - Pet é cadastrado, vinculado com o dono  
+
+**3 - Coletar informações sobre cliente e pet:**  
+
+    - Juntas as informações do pet  
+    
     - Joga elas para o agendamento
 
-**4 - Definir qual o serviço:**
-    - Cliente define o serviço
-    - Sistema junta pet com serviço
+**4 - Definir qual o serviço:**  
 
-**5 - Realizar agendamento:**
-    - Dados linkados entre chaves estrangeiras
+    - Cliente define o serviço  
+    
+    - Sistema junta pet com serviço  
+
+**5 - Realizar agendamento:**  
+
+    - Dados linkados entre chaves estrangeiras  
+    
     - Agendamento realizado
 
 
